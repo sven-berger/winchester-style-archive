@@ -1,0 +1,31 @@
+#tpl_wcf_scTermsOfUse {
+	.content .section, .nutzungsbedingungen-willkommensbox {
+		background: #efefef;
+		border-radius: 12px;
+		padding: 16px;
+
+	}
+	
+	.content ol, .content h2 {
+		margin: 0 !important;
+	}
+		
+	.termCaption {
+		background-color: #2b2e31;
+		padding: 16px;
+    	border-radius: 12px;
+		color: #fff;
+		font-size: 14px !important;
+	}
+	
+	li.term li {
+		background: #fafafa;
+		padding: 16px;
+		border-radius: 8px;
+		margin: 20px 0 !important;
+	}
+	
+	h2#term90, h2#term91, h2#term95, h2#term98 {
+		background: #3579BD !important;
+	}
+}

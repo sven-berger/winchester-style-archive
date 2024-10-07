@@ -1,0 +1,36 @@
+.own-embedded {
+	.embeddedContentImageElement {
+		background: #000;
+	}
+	
+	.embeddedContentLink {
+		background: #efefef;
+    	border-bottom-left-radius: 6px;
+    	border-bottom-right-radius: 6px;
+	}
+	
+	.embeddedContentImageElement.embeddedContentImageElement.embeddedContentImageElement {
+		height: 120px !important;
+	}
+}
+
+.content-embedded {
+	.embeddedContentLink {
+		background: #fff !important;
+	}
+	.embeddedContentImageElement.embeddedContentImageElement.embeddedContentImageElement {
+		height: 150px !important;
+	}
+}
+
+.febas-embedded {
+	
+	.embeddedContentImageElement {
+		background: #fff;
+	}
+		
+	.embeddedContentImageElement {
+    	object-fit: scale-down !important;
+    	padding: 20px;
+	}
+}

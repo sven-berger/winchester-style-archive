@@ -1,0 +1,157 @@
+body[data-page-id="224"]  {
+	.showEntryList {
+		margin: 20px 0 !important;
+	}
+	
+	.showEntryDataContainer {
+		padding: 0 20px 20px 20px;
+	}
+
+	.showEntryTile {
+    	border-radius: 12px !important;
+	}
+	
+	.box128 {
+		border-radius: 12px 12px 0 0 !important;
+	}
+
+	.burningbook {
+    	background: #f2f3f4 !important;
+	}
+
+	.showEntryFooter-phpBB1dark {
+		background: #2c3e50 !important;
+		color: #fff !important;
+			.icon, a {
+				color: #fff !important;
+			}
+	}
+	
+	.burning-board-1-2-showEntryFooter {
+		background: #3579BD !important;
+		color: #fff !important;
+			.icon, a {
+				color: #fff !important;
+			}
+	}
+	
+	.burning-board-1-1-showEntryFooter {
+		background: rgb(109, 77, 77) !important;
+		color: #fff !important;
+			.icon, a {
+				color: #fff !important;
+			}
+	}
+
+	.burning-board-1-1 {
+		background: #646464;
+		color: #fff !important;
+		.showEntrySubject a, .showEntryDataContainer {
+			color: #fff !important;
+		}
+	}
+
+	.burning-board-1-2 {
+		background: #0d7bb9 !important;
+		padding: 0 !important;
+
+		.showEntryDataContainer {
+			padding: 20px 0;
+		}
+
+		.showEntrySubject a, .showEntryDataContainer {
+			color: #fff !important;
+		}
+		
+        img {
+            border-radius: 12px !important;
+        }
+	}
+
+	.phpbb1-light {
+		background: #fff;
+	}
+
+	.phpbb1-dark {
+		background: #000;
+		color: #fff !important;
+
+		.showEntrySubject a, .showEntryDataContainer {
+			color: #fff !important;
+		}
+	}
+
+	.phpbb2 {
+		background: #fafafa;
+	}
+
+    .mybb {
+        background: #fff;
+    }
+
+	.vbulletin {
+		background: #e1e1e1;
+	}
+
+    .burning-board-lite-1 {
+        background: #0B6295;
+        color: #fff !important;
+
+        .showEntrySubject a {
+            color: #fff !important;
+        }
+
+    }
+
+    .burning-board-2 {
+		padding: 0 !important;
+		
+		.containerHeadline~.containerContent {
+			margin-top: 0 !important;
+		}
+		
+		.showEntryIcon {
+			background-image: url(https://mediencenter.gentlemantis.de/media/120/);
+			text-align: center !important;
+			margin-bottom: 10px;
+			border-radius: 12px 12px 0 0 !important;
+			img {
+				border-radius: 12px 12px 0 0 !important;
+			}
+		}
+		
+		.showEntryDataContainer {
+			padding: 0 !important; 
+			background: #fff !important;
+			border-radius: 12px !important;
+		}
+		
+		.containerContent {
+			padding: 20px !important;
+		}
+		
+		.showEntrySubject {
+			padding: 0 20px !important;
+		}
+	}
+	
+	.showEntryFooter {
+		background: #efefef;
+		border-radius: 0 0 12px 12px !important;
+	}
+
+    .burning-board-lite-1-showEntryFooter {
+        background: #3579BD !important;
+        color: #fff !important;
+        .icon, a {
+            color: #fff !important;
+        }
+    }
+
+	.showEntryStats .icon {
+		margin-right: 5px;
+		color: rgb(109, 77, 77);
+	}
+}
+
+

@@ -1,0 +1,30 @@
+#tpl_wcf_article {
+	#comments .embeddedContent {
+		.embeddedContentMeta, .embeddedContentDescription, .embeddedContentCategory {
+			display: none;
+		}
+		
+		.embeddedContentTitle {
+			text-align: center;
+		}
+	}
+}
+
+#tpl_wcf_articleList {
+    .praesentation-slideshow {
+        border-radius: 12px !important;
+
+        img {
+            border: 3px solid #e5e9f2;
+            border-radius: 12px;
+        }
+    }
+}
+
+#tpl_wcf_categoryArticleList {
+	.contentItemContent {
+		margin-top: 5px;
+		padding: 16px;
+		text-align: center;
+	}
+}

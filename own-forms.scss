@@ -1,0 +1,14 @@
+#tpl_wcf_formUserResponse, .dialogForm {
+	.info[id="field12"] {
+		padding: 0 !important;
+		background: none !important;
+			&::after {
+			display: none;
+			}
+	}
+}
+
+
+#tpl_wcf_formUserResponse .own-embedded .embeddedContentLink {
+	background: #fff !important;
+}

@@ -1,0 +1,138 @@
+
+
+#tpl_wcf_help {
+		
+	.boxesContentTop, .section {
+		margin-top: 20px !important;
+	}
+		
+	.flexibleCategoryList:not(.flexibleCategoryListDisabled) {
+    	column-count: 1 !important;
+	}
+	
+	.containerHeadline {
+		background-color: white;
+    	border-radius: 10px;
+    	padding: 10px !important;
+	}
+
+	.all-article {
+		background-color: #efefef;
+    	color: #202020;
+    	border-radius: 12px;
+		padding: 16px;
+		border: none !important;
+		
+		.sectionTitle {
+			background-color: #f20e0e;
+    		padding: 10px;
+			border-radius: 12px;
+			border: none !important;
+			color: #fff;
+			&::before {
+    			font-size: 28px;
+    			content: "\f1cd";
+    			font-family: FontAwesome;
+   		 		margin-right: 10px;
+				width: 26px;
+				display: inline-block;
+			}
+		}
+	}
+
+	.important-article {
+			background-color: #efefef;
+    		color: #202020;
+    		border-radius: 12px;
+			padding: 16px;
+			border: none !important;
+
+		.sectionTitle {
+			background-color: #3579BD;
+    		padding: 10px;
+			border-radius: 8px;
+			border: none !important;
+			color: #fff;
+			&::before {
+    			font-size: 28px;
+    			content: "\f071";
+    			font-family: FontAwesome;
+   		 		margin-right: 10px;
+				width: 26px;
+				display: inline-block;
+			}
+		}
+		
+		.containerHeadline {
+			background-color: #2b2e31;
+    		padding: 10px;
+			border-radius: 8px;
+			
+			a {
+				color: #fff !important;
+			}
+		}
+		
+		.containerList>li {
+			background: #fff !important;
+		}
+		
+		.containerList>li:not(:first-child) {
+			margin: 10px 0 !important;
+		}
+		
+		.inlineList {
+			padding: 10px !important;
+		}
+	}
+}
+
+#tpl_wcf_helpArticle {
+	
+.contentHeaderTitle .inlineList .badge {
+	margin-top: 10px;
+}
+
+sup {
+	color: #f20e0e !important;
+	font-weight: bold;
+}
+	
+table {
+	
+	a {
+		color: #3579be !important;
+		font-weight: bold;
+	}
+}
+	
+.fa-check-circle-o {
+	color: green !important;
+}
+	
+dl a {
+	color: #f20e0e !important;
+}
+
+.section {
+	background: #efefef;
+	border-radius: 8px;
+	padding: 16px;
+}
+
+.formBBCodeContent {
+	background: #fff !important;
+	border-radius: 12px !important;
+}
+
+.messageSidebar .userCredits {
+	display: block !important;
+}
+
+@include screen-md-down { 
+	.rang-praesentation {
+		padding: 0 30px;
+	}
+}
+
+}

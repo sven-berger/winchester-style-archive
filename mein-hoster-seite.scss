@@ -1,0 +1,67 @@
+body[itemid="https://the-supernatural.de/link-entry/1-febas-gmbh-mein-hoster-seit-09-12-2021/"],
+.mein-hoster {
+
+    h2 {
+        margin-top: 0 !important;
+    }
+
+    .boxImage {
+        max-height: 100% !important;
+    }
+    
+    .htmlContent h2,
+        .boxesContentBottom .boxTitle {
+            color: #3579be;
+        }
+        
+        .htmlContent h3 {
+            color: #f20e0e;
+        }
+        
+        .boxesContentBottom .box {
+            background: #fafafa;
+            border-radius: 12px;
+            padding: 30px;	
+        }
+
+        .febas-woltlab {
+            background: #3a6d9c !important;
+            box-shadow: rgb(0 0 0 / 10%) 0 12px 28px 0, rgb(0 0 0 / 5%) 0 2px 4px 0;
+            
+            .boxTitle {
+                color: #ffd32a !important;
+            }
+            
+            .htmlContent p {
+                color: #fff !important;
+            }
+        }
+}
+
+.mein-hoster-multi-check {
+	.htmlContent ul ::marker {
+		content: '\f0a9' ' ' !important;
+        font-family: FontAwesome;
+		color: #3579BD;
+		font-size: 16px;
+	}
+}
+
+.box.febas-seitenleiste .legend-box {
+	background: none !important;
+	border: 0 !important;
+	padding: 5px 0 0 0 !important;
+	
+	img {
+		border-radius: 12px;
+	}
+	
+	a.externalURL::after {
+		display: none;
+	}
+}
+
+.box.febas-seitenleiste {
+	background: none !important;
+	padding: 0 !important;
+}

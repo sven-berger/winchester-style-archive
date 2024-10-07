@@ -1,0 +1,144 @@
+.box.hinweis-vorlage {
+    background: #3579be !important;
+    color: white !important;
+        .boxTitle {
+            background: #F8A21BFF !important;
+            color: #fff !important;
+        }
+}
+
+.interne-schnellauswahl {
+    ul {
+        display: block !important;
+    }
+    
+    .other-button-list {
+        margin-top: 30px;
+    }
+
+    .fa-check {
+        color: #fff !important;
+    }
+}
+
+.showEntryList {
+    display: block !important;
+    > li {
+        max-width: 100% !important;
+    }
+}
+
+.aufgaben-spalten-box .box:nth-child(2) {
+    display: none;
+}
+
+.aufgaben-boxen {
+    background: #efefef;
+    padding: 16px;
+    border-radius: 12px;
+
+    .box128 {
+        background: #fff !important;
+    }
+
+    .workflow_open, .workflow_process, .workflow_sucessful, .workflow_fail {
+        display: none;
+    }
+}
+
+.keine-aufgaben {
+    border: 3px solid #f8f9fc !important;
+    background: #090;
+    color: #fff;
+    text-align: center;
+    .boxTitle {
+        color: #fff;
+        text-align: left !important;
+    }
+}
+
+.noch-keine-aufgaben {
+    border: 3px solid #f8f9fc !important;
+    background: #f90;
+    color: #fff;
+    text-align: left;
+    .boxTitle {
+        color: #fff;
+    }
+}
+
+.interne-contentboxen {
+    .boxesSidebarRight .box .boxTitle {
+        color: #fff !important;
+    }
+}
+
+.labelList, .dropdownMenu .scrollableDropdownMenu {
+
+    .workflow_admins {
+    	background: rgb(214,68,52);
+    }
+
+    .workflow_erz {
+    	background: #989898;
+    }
+    
+    .workflow_mods {
+    	background: rgb(107,188,228);
+    }
+    
+    .workflow_sens {
+    	background: #000;
+    }
+    
+    .workflow_hug {
+    	background: #8e44ad;
+    }
+
+    .workflow_gentlemantis {
+    	background: #2980b9;
+    }       
+
+    .workspace_error {
+        background: #e74c3c;
+    }
+    
+    .workspace_suggestion {
+        background: #16a085;
+    }
+    
+    .workspace_function {
+        background: #3498db;
+    }
+    
+    .workspace_improvement {
+        background: #9b59b6;
+    }
+    
+    .workflow_open {
+    	background: #F5B041;
+    }
+    
+    .workflow_process {
+    	background: #BA4A00;
+    }
+        
+    .workflow_sucessful {
+    	background: #090;
+    	color: #efe;
+    }
+    
+    .workflow_fail {
+    	background: #c00;
+    }
+
+    .workflow_missing {
+    	background: #f90;
+    }
+}
+
+#tpl_show_entryList .content {
+    .workspace_error, .workspace_suggestion, .workspace_function, .workspace_improvement {
+		display: none;
+	}
+}

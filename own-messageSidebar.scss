@@ -1,0 +1,205 @@
+@include screen-lg {
+    .messageSidebar {
+        text-align: left !important;
+    
+        &::before {
+            display: none;
+        }	
+	}
+}
+
+.messageSidebar {
+    .badgeOnline::before {
+        left: 32px !important;
+        top: 2px !important;
+    }
+}
+
+.userOnlineGroupMarking4 .messageSidebar,
+.userOnlineGroupMarking10 .messageSidebar {
+    border: 3px solid #d64434 !important;
+    @include screen-lg { border-radius: 8px !important; }
+    @include screen-md-down { border-radius: 8px 8px 0 0 !important;}
+}
+
+.userOnlineGroupMarking6 .messageSidebar,
+.demo-hueter {
+    @include screen-lg { border-radius: 8px !important; }
+    @include screen-md-down { border-radius: 8px 8px 0 0 !important;}
+    border: 1px solid #3579be !important;
+    border-bottom-width: 30px !important;
+        &::after {
+            bottom: -23px;
+            content: "Hüter";
+            font-family: Lato;
+            height: 20px;
+            left: 65%;
+            position: absolute;
+            transform: translateX(-50%);
+            width: 102px;
+            color: #fff;
+            font-weight: bold;
+        }
+}
+
+@include screen-md-down {
+    .userOnlineGroupMarking6 .messageSidebar {
+        border: 2px solid #3579be !important;
+    }
+}
+
+.demo-hueter {
+    background: #fafafa !important;
+    width: 210px !important;
+    .plain.dataList::before {
+        content: "";
+        font-family: FontAwesome;
+        font-size: 17px;
+        display: block;
+        position: absolute;
+        margin-top: -25px;
+        background: #fafafa !important;
+        width: 26px;
+    }
+}
+
+.userOnlineGroupMarking7 .messageSidebar,
+.demo-gelehrter {
+    @include screen-lg { border-radius: 8px !important; }
+    @include screen-md-down { border-radius: 8px 8px 0 0 !important; }
+    border: 1px solid #f20e0e !important;
+    border-bottom-width: 30px !important;
+        &::after {
+            font-weight: bold;
+            bottom: -23px;
+            content: "Gelehrter";
+            font-family: Lato;
+            height: 20px;
+            left: 60%;
+            position: absolute;
+            transform: translateX(-50%);
+            width: 102px;
+            color: #fff;
+        }
+}
+
+@include screen-md-down {
+    .userOnlineGroupMarking7 .messageSidebar {
+        border: 2px solid #f20e0e !important;
+    }
+}
+
+.demo-gelehrter {
+    background: #fafafa !important;
+	width: 210px !important;
+    .plain.dataList::before {
+    	content: "";
+    	font-family: FontAwesome;
+    	font-size: 17px;
+    	display: block;
+    	position: absolute;
+   		margin-top: -25px;
+		background: #fafafa !important;
+		width: 26px;
+	}
+}
+
+.userOnlineGroupMarking8 .messageSidebar,
+.demo-sensenmann {
+    @include screen-lg { border-radius: 8px !important; }
+    @include screen-md-down { border-radius: 8px 8px 0 0 !important; }
+    border: 1px solid #000 !important;
+    border-bottom-width: 30px !important;
+        &::after {
+            bottom: -23px;
+            content: "Sensenmann";
+            font-family: Lato;
+            height: 20px;
+            left: 55%;
+            position: absolute;
+            transform: translateX(-50%);
+            width: 102px;
+            color: #fff;
+            font-weight: bold;
+        }
+}
+
+@include screen-md-down {
+    .userOnlineGroupMarking8 .messageSidebar {
+        border: 2px solid #000 !important;
+    }
+}
+
+.demo-sensenmann {
+    background: #fafafa !important;
+    width: 210px !important;
+    .plain.dataList::before {
+    	content: "";
+    	font-family: FontAwesome;
+    	font-size: 17px;
+    	display: block;
+    	position: absolute;
+   		margin-top: -25px;
+		background: #fafafa !important;
+		width: 26px;
+	}
+}
+
+.userOnlineGroupMarking9 .messageSidebar {
+    border: 3px solid #d8d8d8 !important;
+}
+
+@include screen-md-down {
+    .demo-sensenmann, .demo-hueter, .demo-gelehrter {
+        border-bottom-left-radius: 8px !important;
+        border-bottom-right-radius: 8px !important;
+    }
+}
+
+.messageSidebar, .userMenu {
+
+    .messageAuthorContainer:not(:last-child) {
+        margin-bottom: 0;	
+    }
+        
+    .badge:not(.badgeOnline) {
+        background: none !important;
+        padding-left: 0 !important;
+        color: #393939;
+    }
+    
+    .badge_admin {
+        color: #d64434 !important;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    
+    .badge_mod {
+        color: #6bbce4;
+        font-size: 11px;
+    }
+
+    .badge_erzengel {
+        font-size: 11px;
+        color: #989898;
+        font-weight: bold;
+     }
+
+    .badge_clan-founder {
+        margin: 10px 0;
+        
+        .badge {
+            background-color: transparent;
+            border: 1px solid currentColor;
+            color: #535c68;
+            padding: 3px !important;
+        
+                &::before {
+                    content: '\f2c5';
+                    font-family: FontAwesome;
+                    margin-right: 5px;
+                    position: relative;
+                }
+        }
+    }
+}

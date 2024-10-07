@@ -1,0 +1,41 @@
+
+#tpl_clan_clanBoardList {
+	
+    .content > .section .tabMenuContent > .section {
+        background: none !important;
+        padding: 0 !important;
+    }
+        
+    .tabularBox {
+        background-color: #efefef;
+        padding: 14px;
+        border-radius: 12px;
+    }
+    
+    .tabularBox:not(:first-child) {
+        margin-top: 20px;
+    }
+        
+    .clanBoardList .clanBoardContainer {
+        border-bottom: 0 !important;
+    }
+        
+    .tabularBoxTitle > header {
+        background: none !important;
+        @include screen-sm-down { padding: 0 0 8px 0 !important; }
+            a {
+                color: #1a1a1a !important;
+            }
+    }
+    
+    .clanBoardList .clanBoard {
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        padding: 8px 0 !important;
+        @include screen-sm-down { padding: 6px 16px 8px !important; }
+    }
+        
+    }
+    

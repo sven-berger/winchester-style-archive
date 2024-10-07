@@ -1,0 +1,44 @@
+#tpl_wcf_jiraProjectList, #tpl_wcf_jiraRoadmap {
+    .content > .section {
+        padding: 20px;
+        border-radius: 12px;
+        background: #efefef;
+    }
+}
+
+#tpl_wcf_jiraVersion {
+    .jiraVersionTab {
+        border-bottom: 1px #bbb solid;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .jiraVersionReleased {
+        margin: 0 !important;
+        padding: 20px;
+        border-radius: 12px;
+        background: #efefef;
+        font-weight: bold;
+        color: #3579BD;
+      }
+}
+
+#tpl_wcf_jiraIssue {
+    .contentHeader .contentHeaderNavigation {
+        margin-left: 0 !important;
+    }
+
+    .contentHeader .contentHeaderNavigation > ul {
+        justify-content: flex-start !important;
+    }
+
+    .jiraIssue {
+        background: #efefef;
+        border-radius: 12px;
+        border: none !important;
+    }
+
+    .contentHeaderTitle {
+        display: none;
+    }
+} 

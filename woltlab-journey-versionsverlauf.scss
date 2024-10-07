@@ -1,0 +1,69 @@
+body[itemid="https://the-supernatural.de/db/woltlab/data/1-versionsverlauf/"] {
+
+    .fa-times {
+    	color: red;
+	}
+
+    .versionsverlauf-legende table {
+            td {
+                padding: 12px;
+                border: none !important;
+                background: none !important;
+            }
+    }
+
+	.articleContent {
+		background: none !important;
+		padding: 0 !important;
+	}
+
+	.versionsverlauf-box, .kleingedrucktes-box {	
+		sup {
+			font-weight: bold;
+    		color: #f20e0e;
+		}
+	}
+
+	.kleingedrucktes-box a {
+		font-weight: bold;
+    	color: #3579BD;
+	}
+	
+	.versionsverlauf-box {
+		margin-bottom: 20px;
+		.boxTitle {
+			padding-bottom: 5px;
+			border-bottom: 1px solid #000;
+		}
+
+		.versionsverlauf-ed dt, .versionsverlauf-ed, .versionsverlauf-ed dd, .versionsverlauf-ed a  {
+			font-weight: bold;
+		color: #f20e0e;
+		}
+	
+		.versionsverlauf_av {
+    		font-weight: bold;
+   			color: #3579BD;
+		}
+
+		.embeddedContentCategory {
+			padding: 20px !important;
+				a, a:hover {
+    				color: #939393 !important;
+				}	
+		}
+		
+		.contentItem {
+			margin: 0 !important;
+			background-color: rgba(255, 255, 255, 0.05) !important;
+		}
+	
+		.embeddedContentDescription {
+			padding: 12px !important;
+		}
+
+		dl.dataList>dd:not(:last-child) {
+			margin-bottom: 7px !important;
+		}
+	}	
+}

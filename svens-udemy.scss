@@ -1,0 +1,14 @@
+@include screen-md-down {
+	.udemy-mobile {
+		display: block !important;
+	}
+	
+	.udemy-mobile-titel {
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	
+	.udemy-mobile-details {
+		font-size: 12px;
+	}
+}

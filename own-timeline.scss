@@ -1,0 +1,20 @@
+.verlauf-winchester-legacy {
+    .timeline-content:not(.timelineContainer .timeline.highlighted .timeline-content) {
+	    background: #efefef;
+	    padding: 30px !important;
+	    border-radius: 12px !important;
+	    box-shadow: none !important;
+    }
+
+    .timeline.highlighted .timeline-content {
+	    padding: 30px !important;
+	    border-radius: 12px !important;
+	    box-shadow: none !important;
+    }
+
+    @include screen-md-down {
+	    .timeline-icon {
+		    margin-bottom: 20px;
+	    }
+    }
+}

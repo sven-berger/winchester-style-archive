@@ -1,0 +1,48 @@
+#tpl_wcf_quiz {
+	
+	.section {
+		border-radius: 12px;
+		padding: 8px !important;
+
+		section {
+			background: #efefef !important;
+			padding: 30px 30px 15px 30px !important;
+		}
+		
+		.sectionTitle {
+			background-color: #2b2e31;
+    		color: #fff;
+    		padding: 10px 15px;
+    		font-size: 14px;
+    		border-radius: 8px;
+    		margin: -10px -15px 0px;
+			margin-bottom: 20px;
+		}
+		
+		.quiz-des {
+			font-weight: bold !important;
+		}
+		
+		.quizButton {
+			background: #3579BD;
+		}
+		
+		.rateButton {
+			background: #090;
+		}
+		
+		.statsButton {
+			background: #f90;
+		}
+		
+		.bestButton {
+			background: #f20e0e;
+		}
+	}
+	
+	.dialogContainer {
+		.section {
+			padding: 0 !important;
+		}
+	}
+}

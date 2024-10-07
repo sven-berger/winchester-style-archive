@@ -1,0 +1,27 @@
+.lieblings-zitate-box {
+	.quoteBoxTitle {
+		display: none;
+	}
+	
+	@include screen-md-down {
+		.quoteBoxIcon {
+			display: none;
+		}
+	}
+	
+	.quoteBoxContent {
+		background: #efefef !important;
+		margin: 0 !important;
+	}
+	
+	.quoteBoxIcon {
+		margin: 30px 20px 0 20px !important;
+	}
+		
+	.htmlContent table, .htmlContent td {
+		border: none !important;
+		background: #fff !important;
+		border-radius: 12px !important;
+		padding: 12px !important;
+	}
+}

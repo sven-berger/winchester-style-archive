@@ -1,0 +1,169 @@
+.meine-playstation-spiele {
+
+.als-naechstes-box, .aktuelles-spiel {
+    .showEntryIcon img {
+        border-radius: 0 !important;
+    }
+}
+
+.kategorie-spiele .showEntryIcon img {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.showEntryIcon img {
+    border-top-left-radius: 12px;
+}
+
+.showEntryIcon-fav img,
+.showEntryIcon-ausgelistet img {
+    border-radius: 0 !important;
+}
+
+.showEntryList .showEntryTile {
+    border-radius: 12px !important;
+    border: 1px solid #e5e9f2 !important;
+}
+    
+.showEntrySubject {
+    margin: 0 !important;
+}
+
+.showEntryList {
+    margin: 0 !important;
+        > li {
+            flex: 1 !important;
+            max-width: 100% !important;
+            padding: 0 !important;
+        }
+}
+            
+.showEntryList .showEntryTile > .box128 {
+    padding: 0 !important;
+}
+
+.box128 {
+    background: #f8f6f6 !important;
+    border-radius: 12px !important;
+    text-align: right;
+        @include screen-md-down {
+            margin-bottom: 10px !important;
+        }
+
+    .showEntryDataContainer {
+        padding: 10px;
+    }
+
+    .ps_name {
+        font-weight: bold;
+        color: #3579be;
+    }
+
+    .als-naechstes-badge {
+        background: #01a3a4 !important;
+        padding: 5px !important;
+        border-top-left-radius: 12px !important;
+    }
+    
+    .als-naechstes-badge .fa {
+        color: #fff;
+    }
+    
+    .ps-version-4 {
+        background-color: #090;
+        color: #efe;
+        padding: 5px !important;
+        border-bottom-left-radius: 12px;
+    }
+            
+    .ps-version-5 {
+        background-color: #f90;
+        color: #efe;
+        padding: 5px !important;
+    }
+}
+
+    
+.playstation-2-spiele {
+    .showEntryIcon img {
+        width: 192px;
+        height: 192px;
+    }
+
+    .ps-version-2 {
+        background-color: silver;
+        color: #000;
+        padding: 5px !important;
+        border-bottom-left-radius: 12px;
+    }
+
+    .showEntryList .showEntryTile > .box128 .showEntryIconContainer img {
+        width: 96px !important;
+    }
+}
+
+.ausgelistet {
+    background-color: #fafafa !important;
+
+    .ausgelistet-badge {
+        border-radius: 12px 0 0 0 !important;
+        background: #c0392b !important;
+        padding: 10px;
+        color: #fff;
+            
+        .fa {
+            color: #fff;
+        }
+    }
+
+    .ps_name {
+        color: #c0392b;
+    }
+}
+        
+.aktuelles-spiel {
+    .as-badge {
+        border-radius: 12px 12px 0 0 !important;
+        color: #fff;
+        background: #3579BD;
+        padding: 10px;
+
+        .fa {
+            color: #fff;
+        }
+    }
+
+    .platz1-badge {
+        background: gold !important;
+        color: #333;
+        padding: 5px !important;
+    }
+
+    .showEntryIconContainer {
+        margin: 10px 0 10px 20px !important;
+    }
+      
+    .ps_name {
+        color: #16a085 !important;
+    }
+
+    .ps-version-4 {
+        background-color: #090;
+        color: #efe;
+        padding: 5px !important;
+        border-radius: 0 0 12px 12px !important;
+    }
+
+    @include screen-md-down { 
+        .showEntryIcon-fav img { 
+            width: 100% !important;
+        }
+    }        
+}
+}
+
+.spiele-information {
+    .warning, .success, .error {
+        text-align: center !important;
+    }
+}

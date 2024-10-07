@@ -1,0 +1,15 @@
+.discord-widget {
+	background: #efefef !important;
+	border-radius: 12px 12px 0 0 !important;
+	padding: 30px 30px 0 30px !important;
+}
+
+.box.discord-shoutbox {
+	border-radius: 0 0 12px 12px !important;
+	background-image: url(../images/scDiscordWidgetBoxBackground-3.png), url(../images/scDiscordWidgetBoxBackground-4.png);
+	margin-top: 0 !important;
+	padding: 0 !important;
+	.boxContent {
+		padding: 0 12px !important;
+	}
+}

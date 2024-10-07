@@ -1,0 +1,284 @@
+body[data-page-id="237"] {
+	.breadcrumbs, .contentHeaderTitle {
+		display: none;
+	}
+	
+    .tabMenu > ul > li > a {
+        font-size: 14px !important;
+    }
+	
+	.boxesContentTop:not(.boxesContentTop .box) {
+    	margin-top: 0 !important;
+	}
+	
+	@include screen-md-down {
+		.box.prasentation-spalten {
+			margin-top: 0 !important;
+		}
+		
+		.sidebar {
+			padding-bottom: 0 !important;
+		}
+	}
+	
+	@include screen-md-down { 
+			.sidebar + .content {
+				margin-top: 0 !important;
+			}
+		}
+	}
+	
+.svens-inhalt {
+    .sidebarItemTitle {
+        margin-left: 5px;
+    }        
+    .userAvatarImage {
+        width: 64px !important;
+        height: 64px;
+        border-radius: 5px;
+    }  
+}
+
+.box.prasentation-spalten {
+	padding: 16px;
+	border-radius: 12px;
+	background: #efefef;
+}
+
+.box.praesentation-slideshow {
+	border-radius: 12px;
+    margin-top: 0 !important;
+   	.slideshowItemContainer, .slideshow {
+       	border: 3px solid #e5e9f2;
+       	border-radius: 12px;
+   }
+}
+
+.box.praesentation-beschreibung {
+	margin-top: 0 !important;
+}
+
+.praesentation-beschreibung,
+.praesentation-beschreibung-woltlab {
+	a, a:hover, .contentItemTitle, .contentItemTitle:hover {
+		font-weight: bold;
+    	color: #3579BD;
+	}
+
+	.contentItemTitle {
+		font-size: 17px !important;
+	}
+	
+	.embeddedContentCategory {
+		margin-top: 5px;
+    	color: #f20e0e !important;
+		font-weight: bold;
+    	font-style: italic !important;
+		
+			a, a:hover {
+				color: #f20e0e !important;
+				font-weight: bold;
+    			font-style: italic !important;
+			}
+	}
+}
+
+.box[data-box-identifier="com.woltlab.wcf.genericBox361"] {
+	padding: 60px 30px !important;
+}
+
+.praesentation-slideshow-woltlab {
+	padding: 0 !important;	
+}
+
+.das-bin-ich .slideshow  {
+	// @include screen-xl { margin-top: 50px;	}
+	@include screen-sm-md { margin-top: 0 !important; }
+}
+
+
+.spalten-1 {
+	padding: 30px !important;
+	background: #efefef !important;
+	border-radius: 12px 12px 0 0 !important;
+	@include screen-md-down { border-radius: 12px !important; }
+}
+
+.spalten-in-the-middle {
+	margin-top: 0 !important;
+	padding: 0 30px;
+	background: #efefef;
+}
+
+
+.svens-medien-tabs {
+	margin-top: 0 !important;
+	padding: 30px;
+	background: #efefef;
+	border-radius: 0 0 12px 12px !important;
+}
+
+.svens-statistik-box {
+	background: #fafafa;
+	border: 1px solid #e5e9f2;
+	border-radius: 12px;
+	padding: 16px;
+	text-align: center;
+		.statistik-anzahl {
+			font-weight: 400;
+    		color: #f20e0e;
+		}	
+}
+
+.svens-statistik-spalten {
+	padding: 20px 0 !important;
+}
+
+.filme-und-serien-boxen {
+	.tabMenu > ul > li > a {
+		font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) and (min-height: 600px) and (max-height: 1080px) {
+    .boxesContentTop .box.prasentation-spalten {
+        margin-top: 0 !important;
+    }
+
+    .sven-berger-einzelnes-top-zitat-1,
+	.sven-berger-einzelnes-top-zitat-2 {
+        border-radius: 12px !important;
+        .boxTitle {
+            color: #fff;
+            background-color: #2b2e31;
+            padding: 10px 15px;
+            font-size: 14px;
+            border-radius: 8px;
+            margin: -10px -15px 0px;
+        }
+}
+}
+
+.sven-berger-topzitate {
+	background: #efefef !important;
+	padding: 16px;
+	border-radius: 12px !important;
+	
+	.sven-berger-einzelnes-top-zitat-1,
+	.sven-berger-einzelnes-top-zitat-2 {
+        border-radius: 12px !important;
+		padding: 30px 30px 15px 30px;
+        @include screen-xl { .boxTitle { font-size: 16px !important;} }
+
+        .boxTitle {
+            font-size: 13px;
+        }
+		
+		.quoteBox {
+			padding: 0 !important;
+			min-height: 0 !important;
+			box-shadow: none !important;
+		}
+		
+		.quoteBoxContent {
+			font-style: italic;
+		}
+		
+		.quoteBoxTitle {
+			display: none;
+		}
+	}
+	
+	.sven-berger-einzelnes-top-zitat-1 {
+		background: #f8f9fc !important;
+	}
+
+	.sven-berger-einzelnes-top-zitat-2 {
+		background: #f8f6f6 !important;
+	}
+}
+
+.schongewusst {
+	background: #efefef !important;
+	padding: 16px;
+	border-radius: 12px;
+
+	.boxWrapper > div {
+		display: block !important;
+	}
+	
+	.slideshowItem {
+		background: #fff !important;
+		border-radius: 8px;
+}
+	
+.schongewusst-slider .box {
+		
+		a, a:hover {
+		    font-weight: bold;
+    		color: #3579BD;
+		}
+		
+		.externalURL::after {
+			display: none;
+		}
+	
+		ul {
+			margin: 1em 0 1em 40px;
+		
+			::marker {
+		margin-right: 10px !important;
+		content: '\f0a9' ' ' !important;
+        font-family: FontAwesome;
+		color: #3579BD;
+		font-size: 16px;
+			}
+		}
+}	
+}
+
+.svens-blogs {
+	border-radius: 12px;
+	padding: 16px;
+	background: #efefef;
+
+	.einzelne-blogs-sven {
+		background: #f8f9fc;
+		border-radius: 12px;
+		padding: 16px;
+		border: 1px solid #e5e9f2;
+	}
+	
+	.contentItem {
+		background: #f8f6f6 !important;
+		border: 1px solid #e5e9f2;
+	}
+	
+	.contentItemMeta {
+    	border-top: 2px solid #efefef;
+    	padding: 10px 14px;
+	}
+
+	.box.button-article-add {
+		margin-top: 0 !important;
+		.boxEditButton {
+			display: none;
+		}
+	}
+	.artikle-button-reihe {
+		margin-top: 0 !important;
+		.boxEditButton {
+			display: none;
+		}
+	}
+
+	.showhidesidebar li {
+		display: none;
+	}
+
+	@include screen-md-down { 
+		.main > .layoutBoundary > .content {
+			margin-top: 0 !important;
+		}
+	}
+}

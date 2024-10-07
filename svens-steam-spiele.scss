@@ -1,0 +1,21 @@
+svens-medien-tabs .embeddedContentImageElement,
+.meine-spiele-bei-steam .embeddedContentImageElement {
+	object-fit: fill !important;
+}
+
+.steamMessageSidebar {
+    padding: 20px 0 0 0 !important;
+    @include screen-md-down { 
+        display: block !important;
+        .steamOnlineStatus {
+            display: inline-block !important;
+        }
+    }
+        .steamAvatar {
+            border-radius: 8px !important;
+        }
+
+        a.externalURL::after {
+            display: none;
+        }
+}

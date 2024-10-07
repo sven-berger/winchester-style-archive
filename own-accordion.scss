@@ -1,0 +1,118 @@
+.accordion-page-mobile {
+	border-radius: 12px;
+	background: #efefef;
+    padding: 16px !important;
+    @include screen-md {
+        .svens-medien-tabs {
+			display: block !important;
+			padding: 0 !important;
+		}
+    }
+	
+	.svens-medien-tabs .embeddedContentImageElement {
+		object-fit: fill !important;
+	}
+
+    .quoteBoxTitle {
+        display: none;
+    }
+	
+	summary {
+		color: #3579BD;
+		font-weight: bold;
+	}
+
+    .sven-berger-einzelnes-top-zitat-1 {
+		background: #f8f9fc !important;
+	}
+
+	.sven-berger-einzelnes-top-zitat-2 {
+		background: #f8f6f6 !important;
+	}
+	
+	.boxesSidebarRight .box {
+		border-radius: 9px;
+		padding: 12px !important;
+			.boxTitle {
+				color: #fff;
+			}
+	}
+
+	.box {
+		margin-top: 20px;
+	}
+}
+
+
+.accordion-db {
+    padding: 0 !important;
+
+    @include screen-md {
+        .boxesSidebarRight > .boxContainer {
+            display: flex !important;
+            .box {
+                margin: 10px 0 !important;
+            }
+        }
+    }
+
+    .boxesContentBottom {
+        margin-top: 0 !important;
+    }
+    
+    .contentItem {
+        background: #fff !important;
+        padding: 0 !important;
+    }
+
+    .contentItemList {
+        margin-bottom: 20px !important;
+    }
+
+    .startseite-db-boxen {
+        background: #fff !important;
+    }
+}
+
+.accordion-content-1 {
+	details {
+		background: #efefef;
+		padding: 16px !important;
+		border-radius: 12px !important;
+		box-shadow: none !important;
+		margin-bottom: 20px;
+	}
+	
+	.boxesContentTop {
+		margin-top: 10px !important;
+		.section {
+		padding: 0 20px 20px 20px !important;
+	}
+	}
+	
+	.details-details {
+		margin: 20px 20px 20px 0;;
+	}
+	
+	summary {
+		background-color: #2b2e31 !important;
+   	 	color: #fff !important;
+    	padding: 10px 15px !important;
+    	font-size: 14px !important;
+    	border-radius: 8px !important;
+	}
+	
+	.boxxerBoxBBCodeContainer {
+			h3 {
+				font-weight: 400;
+    			color: #202020;
+				margin: 1.5em 0 1em 0 !important;
+				font-size: 17px;
+			}
+		
+			ul:not(.tabMenu ul) {
+			    list-style-type: disc;
+				margin: 1em 0 1em 40px !important;
+			}
+	}
+}

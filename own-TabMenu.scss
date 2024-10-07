@@ -1,0 +1,50 @@
+.scTabmenuBBCode {
+	margin: 0 !important;
+
+	.section {
+		margin: 20px 0 !important;
+	}
+	
+	.tabMenu > ul, .menu > ul {
+		padding-top: 0 !important;
+	}
+
+	.menu >ul > li.active > a {
+		background-color: #3579be;
+    	padding: 8px 14px 9px;
+    	margin-top: -2px;
+    	margin-bottom: -1px;
+    	font-size: 14px;
+    	color: white !important;
+		border-radius: 8px 8px 0px 0px;
+    	transition: all 0.15s;
+    	font-size: 13px;
+    	color: #0a0a0a;
+    	font-weight: 400;
+
+		.icon {
+			color: rgba(231, 231, 231, 0.9) !important;
+		}
+	}
+	
+	.menu > ul > li >a {
+    	background-color: #efefef;
+    	padding: 7px 14px;
+    	border-radius: 8px 8px 0px 0px;
+    	transition: all 0.15s;
+		font-size: 13px;
+    	color: #0a0a0a;
+    	font-weight: 400;
+	}
+	
+	.menu::after {
+    	content: "";
+    	display: block;
+    	border-bottom: 8px solid #3579be;
+    	border-radius: 0px 8px 8px 8px;
+	}
+}
+
+.tabMenuContainer .legend-box {
+	background: #fafafa !important;
+}

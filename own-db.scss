@@ -1,0 +1,126 @@
+#tpl_lexicon_entry .boxesSidebarRight .box:not(.db-categories) {
+
+	a {
+		color: #3579be !important;
+		font-weight: 700 !important;
+	}
+
+	.boxContent {
+		margin-top: 0 !important;
+		dt:first-child {
+			display: none;
+		}
+	}
+	
+	.htmlContent {
+		
+		p {
+			margin-top: 20px !important;
+		}
+
+		dt:first-child {
+			display: block !important;
+		}
+
+		img {
+			border-radius: 8px;
+		}
+
+		ul {
+			margin: 20px 0 0 20px !important;
+			list-style: decimal !important;
+		}
+	}
+}
+
+#tpl_wcf_linkOverview {
+	.links-overview {
+		background: #efefef;
+		padding: 16px 16px 0 16px !important;
+		border-radius: 5px;
+		
+		.sectionContainerList {
+			margin-top: 0 !important;
+		}
+		
+		.linkEntryItem {
+			background: #fafafa !important;
+			padding: 10px 16px 15px;
+			border-radius: 5px;
+		}
+	}
+}
+
+#tpl_lexicon_lexicon {
+
+.tabularBoxTitle > header {
+	background: none !important;
+	padding: 0 !important;
+	@include screen-sm-down { padding: 0 0 8px 0 !important; }
+		a {
+			color: #1a1a1a !important;
+		}
+}
+
+.lexiconAlphabetNavigation, .lexiconIndexEntryList {
+	background: #efefef;
+	border-radius: 12px;
+	padding: 20px;
+}
+
+.buttonList {
+	justify-content: center;
+}
+
+.lexiconMainCategory {
+	background-color: #efefef;
+    border-radius: 12px;
+	padding: 14px;
+}
+	
+.lexiconCategoryList .lexiconCategory {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+	padding: 8px 0 !important;
+	@include screen-sm-down { padding: 6px 16px 8px !important; }
+}
+	
+.lexiconCategoryContainer {
+	border-bottom: 0 !important;
+}
+
+}
+
+
+.box.datenbank-hueter {
+	background-color: #3579be !important;
+}
+
+.box.datenbank-sensenmann {
+	color: #fff !important;
+	background-color: #000 !important;
+		.boxTitle, .boxTitle a {
+			background-color: #fff !important;
+			color: #000 !important;
+		}
+}
+
+
+.datenbank-hueter {
+    background-color: #3579be;
+    padding: 16px;
+    border-radius: 12px;
+    color: #fff;
+    
+        .boxTitle, a, a:hover, .boxTitle a, .boxTitle a:hover {
+            color: #fff;
+        }
+    
+        .formBBCodeBox {
+			background-color: #efefef;
+            border-radius: 12px;
+            border: 0 !important;
+        }
+}

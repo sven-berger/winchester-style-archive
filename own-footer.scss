@@ -1,0 +1,135 @@
+.boxesFooter {
+	
+    .externalURL::after {
+        display: none;
+    }
+        
+    .layoutBoundary {
+        padding: 0 !important;
+    }
+        
+    .footer-boxen {
+        background: #fff;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        
+    }
+        
+    .box {
+        margin-top: 0 !important;
+        padding: 15px !important;
+    }
+        
+    .boxTitle {
+        background-color: #2b2e31;
+        color: #fff !important;
+        padding: 10px 15px;
+        font-size: 14px;
+        border-radius: 8px;
+        margin: -10px -15px 0px;
+    }
+
+    .wos_box span, .febas a {
+		font-weight: bold;
+		color: #3579BD;
+	}
+        
+    .footer-menu, .my-copyright {
+        background: #fff;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+        
+    .my-copyright {
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-bottom: 10px;
+        @include screen-md-down { margin-bottom: 0 !important;}
+    }    
+}
+
+@include screen-md-down {
+    .boxesFooter .boxMenu {
+        justify-content: center;
+    }
+}
+
+.pageFooterCopyright {
+    display: none;
+}
+
+.seitenende_informationen {
+	background: #fff;
+	padding: 12px;
+	text-align: center;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	
+	.info_mark {
+    	font-weight: bold;
+    	color: #f20e0e;
+	}
+}
+
+.box.svens-sozialemedien {
+	background: #fff;
+	margin: 0 !important;
+	padding: 0 !important;
+	text-align: center;
+	
+	li.social {
+        	width: 32px;
+        	height: 32px;
+        	display: inline-block;
+        	text-align: center;
+        	list-style: none;
+	    	margin: 2px;
+	    	color: #e5e9f2;
+    }
+
+    
+    .social a:hover {
+        background: #fafafa !important;
+        border-radius: 8px;
+        border: 1px solid #e5e9f2;
+    }
+    
+    .social a {
+        display: block;
+        font-size: 26px;
+        line-height: 30px;
+    }
+}
+
+
+.svens-sozialemedien {
+	.htmlContent {
+		display: flex !important;
+		justify-content: center !important;
+		table {
+			width: auto !important;
+		}
+		
+		table, table td {
+			text-align: center !important;
+			background: none !important;
+			border: 0 !important;
+			
+			.fa {
+				font-size: 24px !important;
+				color: #3579BD !important;;
+			}
+			
+			a, a:hover {
+				color: #414141 !important;
+				font-weight: 500 !important;
+				font-size: 11px !important;
+			}
+			
+			a:hover {
+				font-weight: bold !important;
+				color: #3579BD !important;
+			}
+		}
+	}
+}

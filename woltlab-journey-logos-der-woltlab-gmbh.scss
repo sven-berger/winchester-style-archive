@@ -1,0 +1,59 @@
+body[itemid="https://the-supernatural.de/db/woltlab/data/5-die-logos-der-woltlab-gmbh/"] {
+	.tableOfContentsWrapper { 
+		display: none;
+	}
+	
+	.content .box {
+		padding: 20px;
+		border-radius: 12px !important;
+		border: 2px solid #e5e9f2;
+	}
+	
+	.logo_wsc {
+    	background: #3a6d9c !important;
+	}
+
+	.logo_bb4 {
+    	background-image: url(https://mediencenter.gentlemantis.de/media/124/);
+    	background-color: #254c73;
+	}
+
+	.logo_bblite2 {
+    	background-image: url(https://mediencenter.gentlemantis.de/media/131/);
+	}
+
+	.logo_bb3 {
+    	background-image: url(https://mediencenter.gentlemantis.de/media/123/);
+	}
+
+	.logo_bblite1 {
+    	background: #0b6295 !important;
+	}
+	
+	.logo_bb2 {
+		border: 1px solid #e3e6e8;
+    	text-align: center;
+    	background-image: url(https://mediencenter.gentlemantis.de/media/120/);
+		padding: 0 !important;
+        img {
+            border-radius: 12px !important;
+        }
+	}
+
+	.logo_burningbook {
+		text-align: center;
+    	background: #f2f3f4 !important;
+	}
+
+	.logo_bb1-2 {
+    	background: #0d7bb9 !important;
+		padding: 0 !important;
+        img {
+            border-radius: 12px !important;
+        }
+	}
+
+	.logo_bb1-1 {
+		background: #646464;
+	}
+}

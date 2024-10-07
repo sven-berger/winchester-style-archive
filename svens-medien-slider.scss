@@ -1,0 +1,91 @@
+.slider {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+	background: #efefef;
+	border-radius: 12px;
+}
+
+@media screen and (min-width: 1025px),print {
+    .slider {
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slider {
+        height: 200px;
+    }
+}
+
+.slider:hover .slider-list {
+    animation-play-state: paused;
+}
+
+.slider-list {
+    position: absolute;
+    margin-top: 20px;
+    --width: 100%;
+    --speed: 90s;
+    display: flex;
+}
+
+.slider-list li {
+    border-radius: 12px !important;
+    margin: 0 5px !important;
+}
+
+@media screen and (min-width: 1025px),print {
+    .slider-list li {
+        height:300px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slider-list li {
+        width:150px;
+        height: 200px;
+    }
+}
+
+.slider-list>* {
+    flex-grow: 1;
+    text-align: center
+}
+
+.slider-list:nth-child(1) {
+    animation: slider1 var(--speed) linear infinite
+}
+
+@keyframes slider1 {
+    0% {
+        transform: translateX(0rem)
+    }
+
+    50% {
+        transform: translateX(calc(-1 * var(--width)))
+    }
+
+    50.01% {
+        transform: translateX(calc(+1 * var(--width)))
+    }
+
+    100% {
+        transform: translateX(0rem)
+    }
+}
+
+.slider-list:nth-child(2) {
+    animation: slider2 var(--speed) linear infinite
+}
+
+@keyframes slider2 {
+    0% {
+        transform: translateX(calc(+1 * var(--width)))
+    }
+
+    100% {
+        transform: translateX(calc(-1 * var(--width)))
+    }
+}
